@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="logo">Venu Gopal</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <img src="portfolios/me.jpeg" alt="" class="profile-photo">
+    <h2>Hello, I'm</h2>
+    <h1 class="name">Venu Gopal</h1>
+    <p class="role">Java Full Stack Developer</p>
+    <h2 class="About-me">Aspiring Java Full Stack Developer with knowledge of Java, HTML, CSS, JavaScript, and database technologies. I have a strong interest in developing clean, efficient, and user-friendly web applications. I enjoy learning new technologies and improving my problem-solving skills through practical projects.I am a quick learner, adaptable to new environments, and capable of working both independently and in a team. I focus on writing clean code, understanding application logic, and continuously improving my technical and communication skills.
+                        As a fresher, I am eager to start my professional career in software development, contribute to real-world projects, and grow as a developer while delivering value to the organization.
+    </h2>
+    <button class="view-mywork" onclick="scrollToProjects()">View My Work</button>
+</section>
+
+
+<section id="skills" class="skills">
+    <h2 class="head-skill">My Skills</h2>
+
+    <div class="skill-box">
+        <div class="skill">
+            <h1 style="color: aliceblue;">Java</h1>
+            <section class="skill-point">
+                <ul>
+                    <li>Strong understanding of Object-Oriented Programming (OOP) concepts such as Encapsulation, Inheritance, Polymorphism, and Abstraction</li>
+                    <li>Experience working with Java Collections Framework including List, Set, and Map</li>
+                    <li>Knowledge of Exception Handling using try-catch, throw, and throws</li>
+                    <li>Basic understanding of Multithreading and thread management in Java</li>
+                </ul>
+            </section>
+        </div>
+        <div class="skill">
+            <h1 style="color: aliceblue;">HTML</h1>
+            <section class="skill-point">
+                <ul>
+                    <li>Proficient in HTML5 semantic tags, structure, and accessibility best practices</li>
+                    <li>Experience with forms, tables, multimedia elements, and web standards</li>
+                    <li>Knowledge of SEO-friendly HTML and clean, maintainable markup</li>
+                    <li>Familiar with embedding videos, images, and audio for interactive pages</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="skill">
+            <h1 style="color: aliceblue;">CSS</h1>
+            <section class="skill-point">
+                <ul>
+                    <li>Proficient in CSS3, Flexbox, and Grid for responsive layouts</li>
+                    <li>Experience with animations, transitions, and hover effects</li>
+                    <li>Knowledge of CSS variables, pseudo-classes, and pseudo-elements</li>
+                    <li>Familiar with best practices for cross-browser compatibility</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="skill">
+            <h1 style="color: aliceblue;">JavaScript</h1>
+            <section class="skill-point">
+                <ul>
+                    <li>Strong understanding of ES6+ features (let/const, arrow functions, classes)</li>
+                    <li>Experience with DOM manipulation, event handling, and API calls</li>
+                    <li>Knowledge of asynchronous programming (Promises, async/await)</li>
+                    <li>Ability to write clean, modular, and maintainable JS code</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="skill">
+            <h1 style="color: aliceblue;">React</h1>
+            <section class="skill-point">
+                <ul>
+                    <li>Experience building functional components and class components</li>
+                    <li>Proficient with React Hooks (useState, useEffect, useContext)</li>
+                    <li>Knowledge of state management using Context API or Redux basics</li>
+                    <li>Familiar with routing using React Router and integrating APIs</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="skill">
+            <h1 style="color: aliceblue;">Node.js</h1>
+            <section class="skill-point">
+                <ul>
+                    <li>Experience building server-side applications using Node.js</li>
+                    <li>Knowledge of asynchronous programming and event-driven architecture</li>
+                    <li>Familiar with working with file systems and creating REST APIs</li>
+                    <li>Understanding of Node.js modules and npm package management</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="skill">
+            <h1 style="color: aliceblue;">Express.js</h1>
+            <section class="skill-point">
+                <ul>
+                    <li>Proficient in building RESTful APIs with Express.js</li>
+                    <li>Experience with routing, middleware, and request/response handling</li>
+                    <li>Knowledge of authentication methods (JWT, sessions, cookies)</li>
+                    <li>Ability to connect Express.js with databases (MongoDB, MySQL)</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="skill">
+            <h1 style="color: aliceblue;">MongoDB</h1>
+            <section class="skill-point">
+                <ul>
+                    <li>Experience with NoSQL database design and document-based structure</li>
+                    <li>Proficient in CRUD operations using MongoDB queries</li>
+                    <li>Knowledge of Mongoose for schema definition and data modeling</li>
+                    <li>Understanding of indexing, aggregation, and data validation</li>
+                </ul>
+            </section>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="projects" class="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+       <div class="card">
+   <img class="card-img" src="portfolios/chatbox.png" alt="ChatBox">
+    <h3>Chat Application</h3>
+    <p>Java Socket based chat app.</p>
+</div>
+
+<div class="card">
+    <img class="card-img" src="portfolios/todo.png" alt="To-Do List">
+    <h3>Todo List</h3>
+    <p>Task manager using JavaScript.</p>
+</div>
+
+<div class="card">
+    <img class="card-img" src="portfolios/portfolio.png" alt="Portfolio">
+    <h3>Portfolio Website</h3>
+    <p>Personal portfolio using HTML CSS.</p>
+</div>
+
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email:vjvenugopal11@gmail.com</p>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
