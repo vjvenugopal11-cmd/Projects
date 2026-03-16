@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<button class="darkBtn" onclick="toggleDarkMode()">Dark Mode</button>
+
+<div class="container">
+
+    <div class="todo-box">
+
+        <h2>My To-Do List</h2>
+
+        <input type="text" id="taskInput" placeholder="Enter your task">
+        <button class="add" onclick="addTask()">Add</button>
+        <button class="clear" onclick="clearAll()">Clear All</button>
+
+        <ul id="taskList"></ul>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

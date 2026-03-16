@@ -1,0 +1,136 @@
+body{
+    font-family: Arial;
+    background: linear-gradient(to right, wheat, lightyellow);
+}
+
+/* dark mode button */
+
+.darkBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* layout */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.todo-box{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h2{
+    text-align: center;
+}
+
+input{
+    width: 65%;
+    padding: 8px;
+}
+
+button{
+    padding: 8px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: darkorange;
+    transform: scale(1.05);
+}
+
+/* task list */
+
+ul{
+    margin-top: 20px;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    background: #f2f2f2;
+    padding: 8px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover{
+    background: #ddd;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+/* clear & add*/
+
+.clear{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.add{
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+/* delete button */
+
+.deleteBtn{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.deleteBtn:hover{
+    background: darkred;
+}
+
+/* DARK MODE */
+
+.darkBtn{
+    border-radius: 5px;
+}
+
+.dark-mode{
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .todo-box{
+    background: #2b2b2b;
+}
+
+.dark-mode li{
+    background: #3a3a3a;
+}
+
+.dark-mode li:hover{
+    background: #555;
+}
+
+.dark-mode input{
+    background: #444;
+    color: white;
+}
